@@ -33,14 +33,14 @@ class ValidateText(UserText):
         self.proceed_validation()
 
     def proceed_validation(self):
-
+        print(self.user_text)
         self.user_text = self.user_text.split(' ')
         for word in self.user_text:
             if len(word) > 3:
                 for key, item in DataSet.items():
                    # print(key)
                     info = ' '.join(item)
-                   # print(type(info))
+                    print(info)
                     if self.word_validation(word, info, key):
                         if self.stack.get(key) is None:
                             self.stack[key] = self.validate_message

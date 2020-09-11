@@ -32,7 +32,7 @@ class Bot(BotResponse):
                 if key == 'START':
                     message = 'Чем я могу вам помочь?'
                     self.response_data['messages'].append(self.create_message('Здравствуйте'))
-                    self.response_data['messages'].append(self.create_message(message))
+                    self.response_data['messages'].append(self.create_message(message, 'start'))
 
                 if key == 'WELCOME':
                     self.response_data['messages'].append(self.create_message(item))
@@ -82,6 +82,9 @@ class Bot(BotResponse):
         if type == 'projects':
             for name in PROJECT_NAMES:
                 keyboard.append(Bot.create_button(type='text', label=name.title()))
+
+        if type == 'start':
+            keyboard.append(Bot.create_button(type='text', label='Узнать о доступных проектах'))
 
             # keyboard = [
             #     {
