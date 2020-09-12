@@ -6,4 +6,10 @@ API_KEY = ''
 
 VK_GROUP_ID = '198392433'
 
+PROJECTS_AMOUNT = 5
+
 PROJECTS_DATA = 'https://dobro.mail.ru/projects/rss/target/'
+
+PAYMENT_LINK = ''
+
+PATTERN_MAX_ERROR = 0.6

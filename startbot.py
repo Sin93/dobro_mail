@@ -1,7 +1,7 @@
 from config import TOKEN, VK_GROUP_ID
 from vk_api import VkApi
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
-from BotLogic import Bot
+from BotLogic.Bot import Bot
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
             information = event.object.message['text']
 
             # создаётся эктемпляр класса, который управляет логикой бота
-            received_message = Bot(user_id, user_message, information)
+            Bot(user_id, user_message, information)
 
 if __name__ == '__main__':
     main()
