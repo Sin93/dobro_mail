@@ -9,7 +9,6 @@ class ApiMethodsClass():
     def __init__(self, user_id, message):
         self.user_id = user_id
         self.message = message
-        print(self.message)
         self.json_keyboard = self.create_json_keyboard(self.message['keyboard'], self.message['inline'])
         ApiMethodsClass.send_msg_and_keyboard(user_id, message['message'], self.json_keyboard)
 
@@ -30,12 +29,14 @@ class ApiMethodsClass():
                 "action": {
                     "type": button['type'],
                     "label": button['label'],
+                    "payload": button['payload'],
                 },
-                "color": button['color'],
+                "color": button['color']
             }]
 
-            # if payload:
-            #     new_button[0]['action']['payload'] = payload
+            if button['link'] is not None:
+                new_button[0]['action']['link'] = button['link']
+                new_button[0]['color'] = None
 
             keyboard_for_send["buttons"].append(new_button)
 
