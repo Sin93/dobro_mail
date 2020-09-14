@@ -11,9 +11,10 @@ def main():
 
     for event in longpoll.listen():
         if event.type == VkBotEventType.MESSAGE_NEW:
+            print(event.object)
             user_id = event.object.message['from_id']
             user_message = event.object.message['text']
-            information = event.object.message['text']
+            information = event.object.message.get('payload')
 
             # создаётся эктемпляр класса, который управляет логикой бота
             Bot(user_id, user_message, information)
