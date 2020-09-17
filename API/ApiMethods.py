@@ -1,8 +1,10 @@
-from config import TOKEN
+from config import TOKEN, ACCESS_TOKEN, API_LINK, API_VERSION, VK_GROUP_ID, GROUP_PHOTO_ALBUM_ID, PHOTOS_DIR
 from vk_api import VkApi, utils
-from typing import Optional
+from typing import Optional, List
 
 import json
+import os
+import requests
 
 
 class ApiMethodsClass():
@@ -66,3 +68,53 @@ class ApiMethodsClass():
                 message=message,
                 random_id=random_id
             )
+
+    @staticmethod
+    def get_upload_server():
+        response = requests.get(
+            API_LINK.format(method_name='photos.getUploadServer'),
+            params={
+                'access_token': ACCESS_TOKEN,
+                'album_id': GROUP_PHOTO_ALBUM_ID,
+                'group_id': VK_GROUP_ID,
+                'v': API_VERSION
+            }
+        ).json()
+
+        print(response)
+
+        return response['response']['upload_url']
+
+
+
+    @staticmethod
+    def send_carousel(elements: List):
+        pass
+
+    @staticmethod
+    def upload_image():
+        upload_url = ApiMethodsClass.get_upload_server()
+
+        all_photo = os.listdir(PHOTOS_DIR)
+
+        for photo in all_photo:
+            file = {'file1': open(f'{PHOTOS_DIR}{photo}', 'rb')}
+            upload_response = requests.post(upload_url, files=file).json()
+            save_photo_in_album = requests.get(
+                API_LINK.format(method_name='photos.save'),
+                params={
+                    'access_token': ACCESS_TOKEN,
+                    'album_id': GROUP_PHOTO_ALBUM_ID,
+                    'group_id': VK_GROUP_ID,
+                    'server': upload_response['server'],
+                    'photos_list': upload_response['photos_list'],
+                    'hash': upload_response['hash']
+                }
+            ).json()
+
+        return
+
+
+    @staticmethod
+    def crete_album():
+        pass
