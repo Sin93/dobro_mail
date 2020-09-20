@@ -43,7 +43,7 @@ def main():
             print(event.object)
             user_id = event.object.message['from_id']
             user_message = event.object.message['text']
-            if event.object.client_info.carousel == 'true':
+            if 'carousel' in event.object.client_info:
                 user_can_read_carusel = True
             else:
                 user_can_read_carusel = False
