@@ -1,4 +1,4 @@
-from config import TOKEN
+from config import TOKEN, API_LINK, GROUP_PHOTO_ALBUM_ID, VK_GROUP_ID, ACCESS_TOKEN, API_VERSION
 from vk_api import VkApi, utils
 from vk_api.keyboard import *
 from typing import Optional, List
@@ -177,21 +177,21 @@ class ApiMethodsClass():
     """Тут загрузка фотографий в альбом, основная проблема с тем, что требуется
     авторизация админа группы и его токен, но как это сделать в автоматическом
     режиме - пока не придумал"""
-    # @staticmethod
-    # def get_upload_server():
-    #     response = requests.get(
-    #         API_LINK.format(),
-    #         params={
-    #             'access_token': ACCESS_TOKEN,
-    #             'album_id': GROUP_PHOTO_ALBUM_ID,
-    #             'group_id': VK_GROUP_ID,
-    #             'v': API_VERSION
-    #         }
-    #     ).json()
-    #
-    #     print(response)
-    #
-    #     return response['response']['upload_url']
+    @staticmethod
+    def get_upload_server():
+        response = requests.get(
+            API_LINK.format(method_name='photos.getUploadServer'),
+            params={
+                'album_id': GROUP_PHOTO_ALBUM_ID,
+                'group_id': VK_GROUP_ID,
+                'access_token': ACCESS_TOKEN,
+                'v': API_VERSION
+            }
+        ).json()
+
+        print(response)
+
+        return response
 
 
     # @staticmethod
