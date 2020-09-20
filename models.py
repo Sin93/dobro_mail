@@ -70,7 +70,6 @@ class Projects(BaseModel):
     vendor = IntegerField()
     short_name = CharField(max_length=100)
     description = TextField(null=True)
-    # добавить полную цену
 
     @staticmethod
     def get_projects_by_id(project_id):
