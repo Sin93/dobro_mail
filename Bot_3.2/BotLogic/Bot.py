@@ -7,7 +7,7 @@ import json
 
 
 class Bot(BotResponse):
-    def __init__(self, user_id, user_message, information):
+    def __init__(self, user_id, user_message, information, user_can_read_carusel=False):
         super().__init__(user_id, user_message)
         self.information = information
         self.proceed_validation()
