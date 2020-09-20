@@ -8,22 +8,22 @@
         <currency id="RUR"/>
     </currencies>
     <categories>
-
+        
         <category id="1" parentId="0">Дети</category>
-
+        
         <category id="2" parentId="0">Взрослые</category>
-
+        
         <category id="3" parentId="0">Пожилые</category>
-
+        
         <category id="4" parentId="0">Животные</category>
-
+        
         <category id="5" parentId="0">Природа</category>
-
+        
         <category id="32" parentId="0">Другoе</category>
-
+        
     </categories>
     <offers>
-
+        
         <offer id="3119" available="true">
             <url>https://dobro.mail.ru/projects/pomogi-uchitsya/</url>
             <price>323950</price>
@@ -34,7 +34,7 @@
             <vendor>53</vendor>
             <model>pomogi-uchitsya</model>
         </offer>
-
+        
         <offer id="3066" available="true">
             <url>https://dobro.mail.ru/projects/milana-hochet-vpervyie-vstat-na-nogi/</url>
             <price>13786</price>
@@ -45,7 +45,7 @@
             <vendor>4874</vendor>
             <model>milana-hochet-vpervyie-vstat-na-nogi</model>
         </offer>
-
+        
         <offer id="3159" available="true">
             <url>https://dobro.mail.ru/projects/silnaya-polya/</url>
             <price>37783</price>
@@ -56,7 +56,7 @@
             <vendor>6445</vendor>
             <model>silnaya-polya</model>
         </offer>
-
+        
         <offer id="3252" available="true">
             <url>https://dobro.mail.ru/projects/forma-tetradki-ruchki-i-kolyaska-dlya-shkolyi/</url>
             <price>2930</price>
@@ -67,7 +67,7 @@
             <vendor>63</vendor>
             <model>forma-tetradki-ruchki-i-kolyaska-dlya-shkolyi</model>
         </offer>
-
+        
         <offer id="3123" available="true">
             <url>https://dobro.mail.ru/projects/malchik-s-trubochkami/</url>
             <price>34254</price>
@@ -78,7 +78,7 @@
             <vendor>6378</vendor>
             <model>malchik-s-trubochkami</model>
         </offer>
-
+        
         <offer id="3244" available="true">
             <url>https://dobro.mail.ru/projects/borba-za-dvoih-pomogite-alekseyu-spravitsya-s-limfomoj/</url>
             <price>8686</price>
@@ -89,7 +89,7 @@
             <vendor>6118</vendor>
             <model>borba-za-dvoih-pomogite-alekseyu-spravitsya-s-limfomoj</model>
         </offer>
-
+        
         <offer id="3178" available="true">
             <url>https://dobro.mail.ru/projects/ot-ulyibki-koli-stanet-nam-teplo/</url>
             <price>151285</price>
@@ -100,7 +100,7 @@
             <vendor>6617</vendor>
             <model>ot-ulyibki-koli-stanet-nam-teplo</model>
         </offer>
-
+        
         <offer id="3199" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-osobyim-detyam-sobratsya-v-shkolu/</url>
             <price>124741</price>
@@ -111,7 +111,7 @@
             <vendor>4904</vendor>
             <model>pomozhem-osobyim-detyam-sobratsya-v-shkolu</model>
         </offer>
-
+        
         <offer id="3094" available="true">
             <url>https://dobro.mail.ru/projects/kovid-19-nas-ne-nastignet/</url>
             <price>497013</price>
@@ -122,7 +122,7 @@
             <vendor>6381</vendor>
             <model>kovid-19-nas-ne-nastignet</model>
         </offer>
-
+        
         <offer id="3165" available="true">
             <url>https://dobro.mail.ru/projects/trus-ne-igraet-v-hokkej/</url>
             <price>67315</price>
@@ -133,7 +133,7 @@
             <vendor>6620</vendor>
             <model>trus-ne-igraet-v-hokkej</model>
         </offer>
-
+        
         <offer id="3207" available="true">
             <url>https://dobro.mail.ru/projects/vernut-tatyane-silyi-zhit/</url>
             <price>228443</price>
@@ -144,7 +144,7 @@
             <vendor>96</vendor>
             <model>vernut-tatyane-silyi-zhit</model>
         </offer>
-
+        
         <offer id="3133" available="true">
             <url>https://dobro.mail.ru/projects/oleg-mechtaet-zhit-i-dyishat/</url>
             <price>197327</price>
@@ -155,7 +155,7 @@
             <vendor>76</vendor>
             <model>oleg-mechtaet-zhit-i-dyishat</model>
         </offer>
-
+        
         <offer id="3175" available="true">
             <url>https://dobro.mail.ru/projects/esli-povezet-dyishat/</url>
             <price>225715</price>
@@ -166,7 +166,7 @@
             <vendor>76</vendor>
             <model>esli-povezet-dyishat</model>
         </offer>
-
+        
         <offer id="3202" available="true">
             <url>https://dobro.mail.ru/projects/pomoch-komandiru-ekipazha/</url>
             <price>162960</price>
@@ -177,7 +177,7 @@
             <vendor>1744</vendor>
             <model>pomoch-komandiru-ekipazha</model>
         </offer>
-
+        
         <offer id="3164" available="true">
             <url>https://dobro.mail.ru/projects/babushki-myi-ryadom/</url>
             <price>146275</price>
@@ -188,7 +188,7 @@
             <vendor>6436</vendor>
             <model>babushki-myi-ryadom</model>
         </offer>
-
+        
         <offer id="3172" available="true">
             <url>https://dobro.mail.ru/projects/soberem-produktyi-dlya-nuzhdayuschihsya-babushek-i-dedushek/</url>
             <price>253789</price>
@@ -199,7 +199,7 @@
             <vendor>6540</vendor>
             <model>soberem-produktyi-dlya-nuzhdayuschihsya-babushek-i-dedushek</model>
         </offer>
-
+        
         <offer id="2981" available="true">
             <url>https://dobro.mail.ru/projects/dobryij-rublik-na-pereezd-s-hvostom/</url>
             <price>188825</price>
@@ -210,7 +210,7 @@
             <vendor>6495</vendor>
             <model>dobryij-rublik-na-pereezd-s-hvostom</model>
         </offer>
-
+        
         <offer id="3042" available="true">
             <url>https://dobro.mail.ru/projects/syityie-koshki-i-sobaki-nesmotrya-na-tyazhelyie-vremena/</url>
             <price>37687</price>
@@ -221,7 +221,7 @@
             <vendor>6268</vendor>
             <model>syityie-koshki-i-sobaki-nesmotrya-na-tyazhelyie-vremena</model>
         </offer>
-
+        
         <offer id="3053" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-bezdomnyim-vernutsya-k-obyichnoj-zhizni/</url>
             <price>604837</price>
@@ -232,7 +232,7 @@
             <vendor>1513</vendor>
             <model>pomozhem-bezdomnyim-vernutsya-k-obyichnoj-zhizni</model>
         </offer>
-
+        
         <offer id="3198" available="true">
             <url>https://dobro.mail.ru/projects/pereselim-invalidov-so-shkolnoj-mebeli/</url>
             <price>416240</price>
@@ -243,7 +243,7 @@
             <vendor>50</vendor>
             <model>pereselim-invalidov-so-shkolnoj-mebeli</model>
         </offer>
-
+        
         <offer id="3104" available="true">
             <url>https://dobro.mail.ru/projects/sobirat-razdelno-dejstvovat-soobscha/</url>
             <price>26322</price>
@@ -254,7 +254,7 @@
             <vendor>6629</vendor>
             <model>sobirat-razdelno-dejstvovat-soobscha</model>
         </offer>
-
+        
         <offer id="3087" available="true">
             <url>https://dobro.mail.ru/projects/uspet-zapastis-nezamenimyim-lekarstvom/</url>
             <price>282206</price>
@@ -265,7 +265,7 @@
             <vendor>2</vendor>
             <model>uspet-zapastis-nezamenimyim-lekarstvom</model>
         </offer>
-
+        
         <offer id="1710" available="true">
             <url>https://dobro.mail.ru/projects/lozhku-za-mamu-organizatsiya-ezhemesyachnoj-vyidachi-naturalnoj-pomoschi-nuzhdayuschimsya-semyam-s-d/</url>
             <price>314915</price>
@@ -276,7 +276,7 @@
             <vendor>123</vendor>
             <model>lozhku-za-mamu-organizatsiya-ezhemesyachnoj-vyidachi-naturalnoj-pomoschi-nuzhdayuschimsya-semyam-s-d</model>
         </offer>
-
+        
         <offer id="3037" available="true">
             <url>https://dobro.mail.ru/projects/nakormim-nuzhdayuschihsya-goryachim-pitaniem-vo-vremya-izolyatsii/</url>
             <price>649366</price>
@@ -287,7 +287,7 @@
             <vendor>6234</vendor>
             <model>nakormim-nuzhdayuschihsya-goryachim-pitaniem-vo-vremya-izolyatsii</model>
         </offer>
-
+        
         <offer id="2957" available="true">
             <url>https://dobro.mail.ru/projects/teplyij-dom-dlya-desyatkov-travmirovannyih-i-oslablennyih-sobak/</url>
             <price>278619</price>
@@ -298,7 +298,7 @@
             <vendor>6268</vendor>
             <model>teplyij-dom-dlya-desyatkov-travmirovannyih-i-oslablennyih-sobak</model>
         </offer>
-
+        
         <offer id="2502" available="true">
             <url>https://dobro.mail.ru/projects/rejdom-vsem-budet-uyutno-v-nem/</url>
             <price>164458</price>
@@ -309,7 +309,7 @@
             <vendor>6228</vendor>
             <model>rejdom-vsem-budet-uyutno-v-nem</model>
         </offer>
-
+        
         <offer id="3091" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-detyam-stoyat-i-smotret-mame-pryamo-v-glaza/</url>
             <price>300736</price>
@@ -320,7 +320,7 @@
             <vendor>6571</vendor>
             <model>pomozhem-detyam-stoyat-i-smotret-mame-pryamo-v-glaza</model>
         </offer>
-
+        
         <offer id="3072" available="true">
             <url>https://dobro.mail.ru/projects/k-mechte-na-velosipede/</url>
             <price>88786</price>
@@ -331,7 +331,7 @@
             <vendor>63</vendor>
             <model>k-mechte-na-velosipede</model>
         </offer>
-
+        
         <offer id="3074" available="true">
             <url>https://dobro.mail.ru/projects/pomosch-instruktora-lfk-dlya-tyazhelobolnyih-detej/</url>
             <price>104774</price>
@@ -342,7 +342,7 @@
             <vendor>6204</vendor>
             <model>pomosch-instruktora-lfk-dlya-tyazhelobolnyih-detej</model>
         </offer>
-
+        
         <offer id="3077" available="true">
             <url>https://dobro.mail.ru/projects/chto-mozhet-byit-luchshe-lyubimogo-blyuda-prigotovlennogo-mamoj/</url>
             <price>95601</price>
@@ -353,7 +353,7 @@
             <vendor>4809</vendor>
             <model>chto-mozhet-byit-luchshe-lyubimogo-blyuda-prigotovlennogo-mamoj</model>
         </offer>
-
+        
         <offer id="3078" available="true">
             <url>https://dobro.mail.ru/projects/zaschita-detskih-serdets/</url>
             <price>660033</price>
@@ -364,7 +364,7 @@
             <vendor>4697</vendor>
             <model>zaschita-detskih-serdets</model>
         </offer>
-
+        
         <offer id="2569" available="true">
             <url>https://dobro.mail.ru/projects/nasridin-prosto-mechtaet-hodit/</url>
             <price>103374</price>
@@ -375,7 +375,7 @@
             <vendor>4783</vendor>
             <model>nasridin-prosto-mechtaet-hodit</model>
         </offer>
-
+        
         <offer id="3081" available="true">
             <url>https://dobro.mail.ru/projects/semran-i-shkola/</url>
             <price>61255</price>
@@ -386,7 +386,7 @@
             <vendor>1527</vendor>
             <model>semran-i-shkola</model>
         </offer>
-
+        
         <offer id="3082" available="true">
             <url>https://dobro.mail.ru/projects/milaniya-i-neposlushnyie-bukvyi/</url>
             <price>58497</price>
@@ -397,7 +397,7 @@
             <vendor>1527</vendor>
             <model>milaniya-i-neposlushnyie-bukvyi</model>
         </offer>
-
+        
         <offer id="2571" available="true">
             <url>https://dobro.mail.ru/projects/kak-vyipusknikam-detskih-domov-ne-poteryatsya-vo-vzrosloj-zhizni/</url>
             <price>133485</price>
@@ -408,7 +408,7 @@
             <vendor>4693</vendor>
             <model>kak-vyipusknikam-detskih-domov-ne-poteryatsya-vo-vzrosloj-zhizni</model>
         </offer>
-
+        
         <offer id="3083" available="true">
             <url>https://dobro.mail.ru/projects/300-dnej-dlya-detej/</url>
             <price>33218</price>
@@ -419,7 +419,7 @@
             <vendor>6406</vendor>
             <model>300-dnej-dlya-detej</model>
         </offer>
-
+        
         <offer id="3084" available="true">
             <url>https://dobro.mail.ru/projects/svyazuyuschaya-nit/</url>
             <price>291792</price>
@@ -430,7 +430,7 @@
             <vendor>6606</vendor>
             <model>svyazuyuschaya-nit</model>
         </offer>
-
+        
         <offer id="2573" available="true">
             <url>https://dobro.mail.ru/projects/teatr-bez-granits/</url>
             <price>79584</price>
@@ -441,7 +441,7 @@
             <vendor>149</vendor>
             <model>teatr-bez-granits</model>
         </offer>
-
+        
         <offer id="3088" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-pererabotat-sinteticheskuyu-odezhdu-v-10-tyisyach-ruchek/</url>
             <price>296645</price>
@@ -452,7 +452,7 @@
             <vendor>6342</vendor>
             <model>pomozhem-pererabotat-sinteticheskuyu-odezhdu-v-10-tyisyach-ruchek</model>
         </offer>
-
+        
         <offer id="3090" available="true">
             <url>https://dobro.mail.ru/projects/myi-vmeste-protiv-insulta/</url>
             <price>483215</price>
@@ -463,7 +463,7 @@
             <vendor>1744</vendor>
             <model>myi-vmeste-protiv-insulta</model>
         </offer>
-
+        
         <offer id="3092" available="true">
             <url>https://dobro.mail.ru/projects/zdravstvuj-malyish-2/</url>
             <price>286597</price>
@@ -474,7 +474,7 @@
             <vendor>6417</vendor>
             <model>zdravstvuj-malyish-2</model>
         </offer>
-
+        
         <offer id="2581" available="true">
             <url>https://dobro.mail.ru/projects/otkryityij-universitet/</url>
             <price>170739</price>
@@ -485,7 +485,7 @@
             <vendor>6523</vendor>
             <model>otkryityij-universitet</model>
         </offer>
-
+        
         <offer id="2071" available="true">
             <url>https://dobro.mail.ru/projects/skazhite-da-osobomu-iskusstvu/</url>
             <price>676540</price>
@@ -496,7 +496,7 @@
             <vendor>4749</vendor>
             <model>skazhite-da-osobomu-iskusstvu</model>
         </offer>
-
+        
         <offer id="3097" available="true">
             <url>https://dobro.mail.ru/projects/psihologicheskaya-pomosch-semyam-s-priemnyimi-detmi/</url>
             <price>68020</price>
@@ -507,7 +507,7 @@
             <vendor>6543</vendor>
             <model>psihologicheskaya-pomosch-semyam-s-priemnyimi-detmi</model>
         </offer>
-
+        
         <offer id="3098" available="true">
             <url>https://dobro.mail.ru/projects/sohranenie-zakaznika-vostochnyij/</url>
             <price>284020</price>
@@ -518,7 +518,7 @@
             <vendor>6625</vendor>
             <model>sohranenie-zakaznika-vostochnyij</model>
         </offer>
-
+        
         <offer id="2336" available="true">
             <url>https://dobro.mail.ru/projects/pedagogicheskaya-podderzhka-semej-s-detmi-s-sindromom-dauna-ot-3-do-7-let/</url>
             <price>117019</price>
@@ -529,7 +529,7 @@
             <vendor>58</vendor>
             <model>pedagogicheskaya-podderzhka-semej-s-detmi-s-sindromom-dauna-ot-3-do-7-let</model>
         </offer>
-
+        
         <offer id="2599" available="true">
             <url>https://dobro.mail.ru/projects/antibulling-v-dejstvii/</url>
             <price>220403</price>
@@ -540,7 +540,7 @@
             <vendor>6555</vendor>
             <model>antibulling-v-dejstvii</model>
         </offer>
-
+        
         <offer id="3111" available="true">
             <url>https://dobro.mail.ru/projects/detyam-sirotam-so-spina-bifida-mozhno-pomoch/</url>
             <price>285225</price>
@@ -551,7 +551,7 @@
             <vendor>6378</vendor>
             <model>detyam-sirotam-so-spina-bifida-mozhno-pomoch</model>
         </offer>
-
+        
         <offer id="3112" available="true">
             <url>https://dobro.mail.ru/projects/hrabraya-devushka-zaschitivshaya-sestru/</url>
             <price>145467</price>
@@ -562,7 +562,7 @@
             <vendor>6386</vendor>
             <model>hrabraya-devushka-zaschitivshaya-sestru</model>
         </offer>
-
+        
         <offer id="1834" available="true">
             <url>https://dobro.mail.ru/projects/tsentr-kompleksnoj-sotsialnoj-reabilitatsii/</url>
             <price>184930</price>
@@ -573,7 +573,7 @@
             <vendor>3354</vendor>
             <model>tsentr-kompleksnoj-sotsialnoj-reabilitatsii</model>
         </offer>
-
+        
         <offer id="2602" available="true">
             <url>https://dobro.mail.ru/projects/net-kiberbullingu/</url>
             <price>894619</price>
@@ -584,7 +584,7 @@
             <vendor>6561</vendor>
             <model>net-kiberbullingu</model>
         </offer>
-
+        
         <offer id="1835" available="true">
             <url>https://dobro.mail.ru/projects/konsultatsii-vrachej-kotoryie-znayut-o-bas/</url>
             <price>278414</price>
@@ -595,7 +595,7 @@
             <vendor>6407</vendor>
             <model>konsultatsii-vrachej-kotoryie-znayut-o-bas</model>
         </offer>
-
+        
         <offer id="3115" available="true">
             <url>https://dobro.mail.ru/projects/shans-dlya-malenkoj-printsessyi/</url>
             <price>218991</price>
@@ -606,7 +606,7 @@
             <vendor>6406</vendor>
             <model>shans-dlya-malenkoj-printsessyi</model>
         </offer>
-
+        
         <offer id="2604" available="true">
             <url>https://dobro.mail.ru/projects/solnechnyij-roma/</url>
             <price>69900</price>
@@ -617,7 +617,7 @@
             <vendor>6269</vendor>
             <model>solnechnyij-roma</model>
         </offer>
-
+        
         <offer id="3117" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-deti-ne-golodali/</url>
             <price>341194</price>
@@ -628,7 +628,7 @@
             <vendor>6149</vendor>
             <model>chtobyi-deti-ne-golodali</model>
         </offer>
-
+        
         <offer id="3120" available="true">
             <url>https://dobro.mail.ru/projects/preparat-dzhadenu-dlya-sashi-i-drugih-detej-s-zabolevaniyami-krovi/</url>
             <price>81770</price>
@@ -639,7 +639,7 @@
             <vendor>117</vendor>
             <model>preparat-dzhadenu-dlya-sashi-i-drugih-detej-s-zabolevaniyami-krovi</model>
         </offer>
-
+        
         <offer id="3121" available="true">
             <url>https://dobro.mail.ru/projects/pomogite-obespechit-dalnevostochnogo-aista-edoj/</url>
             <price>758839</price>
@@ -650,7 +650,7 @@
             <vendor>56</vendor>
             <model>pomogite-obespechit-dalnevostochnogo-aista-edoj</model>
         </offer>
-
+        
         <offer id="2101" available="true">
             <url>https://dobro.mail.ru/projects/pust-ulyibok-stanet-bolshe/</url>
             <price>342760</price>
@@ -661,7 +661,7 @@
             <vendor>6385</vendor>
             <model>pust-ulyibok-stanet-bolshe</model>
         </offer>
-
+        
         <offer id="3125" available="true">
             <url>https://dobro.mail.ru/projects/hochu-zhit-samostoyatelno/</url>
             <price>369263</price>
@@ -672,7 +672,7 @@
             <vendor>116</vendor>
             <model>hochu-zhit-samostoyatelno</model>
         </offer>
-
+        
         <offer id="2103" available="true">
             <url>https://dobro.mail.ru/projects/sbor-sredstv-na-tipirovanie-potentsialnyih-donorov-kostnogo-mozga/</url>
             <price>368269</price>
@@ -683,7 +683,7 @@
             <vendor>4690</vendor>
             <model>sbor-sredstv-na-tipirovanie-potentsialnyih-donorov-kostnogo-mozga</model>
         </offer>
-
+        
         <offer id="2361" available="true">
             <url>https://dobro.mail.ru/projects/sportzal-dlya-vseh/</url>
             <price>222426</price>
@@ -694,7 +694,7 @@
             <vendor>4904</vendor>
             <model>sportzal-dlya-vseh</model>
         </offer>
-
+        
         <offer id="3131" available="true">
             <url>https://dobro.mail.ru/projects/pravilno-stoyat-dlya-zahara/</url>
             <price>129469</price>
@@ -705,7 +705,7 @@
             <vendor>6378</vendor>
             <model>pravilno-stoyat-dlya-zahara</model>
         </offer>
-
+        
         <offer id="2108" available="true">
             <url>https://dobro.mail.ru/projects/podderzhite-rabotu-fonda-zhivoj/</url>
             <price>186550</price>
@@ -716,7 +716,7 @@
             <vendor>75</vendor>
             <model>podderzhite-rabotu-fonda-zhivoj</model>
         </offer>
-
+        
         <offer id="2367" available="true">
             <url>https://dobro.mail.ru/projects/detskij-sad-s-unikalnoj-istoriej-volshebstva/</url>
             <price>289846</price>
@@ -727,7 +727,7 @@
             <vendor>6555</vendor>
             <model>detskij-sad-s-unikalnoj-istoriej-volshebstva</model>
         </offer>
-
+        
         <offer id="3135" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-semyam-nakormit-detej/</url>
             <price>265090</price>
@@ -738,7 +738,7 @@
             <vendor>4796</vendor>
             <model>pomozhem-semyam-nakormit-detej</model>
         </offer>
-
+        
         <offer id="2113" available="true">
             <url>https://dobro.mail.ru/projects/nikita-anya-i-egor-osobyim-detyam-vazhno-podgotovitsya-k-shkole/</url>
             <price>332754</price>
@@ -749,7 +749,7 @@
             <vendor>6204</vendor>
             <model>nikita-anya-i-egor-osobyim-detyam-vazhno-podgotovitsya-k-shkole</model>
         </offer>
-
+        
         <offer id="3138" available="true">
             <url>https://dobro.mail.ru/projects/alisa-vse-esche-vperedi/</url>
             <price>54882</price>
@@ -760,7 +760,7 @@
             <vendor>1527</vendor>
             <model>alisa-vse-esche-vperedi</model>
         </offer>
-
+        
         <offer id="2371" available="true">
             <url>https://dobro.mail.ru/projects/bolnichnyie-deti-4/</url>
             <price>306045</price>
@@ -771,7 +771,7 @@
             <vendor>4801</vendor>
             <model>bolnichnyie-deti-4</model>
         </offer>
-
+        
         <offer id="3139" available="true">
             <url>https://dobro.mail.ru/projects/podemnik-dlya-seryozhi/</url>
             <price>84400</price>
@@ -782,7 +782,7 @@
             <vendor>3458</vendor>
             <model>podemnik-dlya-seryozhi</model>
         </offer>
-
+        
         <offer id="3142" available="true">
             <url>https://dobro.mail.ru/projects/dvizhenie-dlya-vseh/</url>
             <price>246284</price>
@@ -793,7 +793,7 @@
             <vendor>4904</vendor>
             <model>dvizhenie-dlya-vseh</model>
         </offer>
-
+        
         <offer id="3145" available="true">
             <url>https://dobro.mail.ru/projects/zhizn-bez-tepla-maminyih-ruk/</url>
             <price>34599</price>
@@ -804,7 +804,7 @@
             <vendor>60</vendor>
             <model>zhizn-bez-tepla-maminyih-ruk</model>
         </offer>
-
+        
         <offer id="2122" available="true">
             <url>https://dobro.mail.ru/projects/pomoch-kazhdomu-rebyonku-najti-svoj-put/</url>
             <price>351586</price>
@@ -815,7 +815,7 @@
             <vendor>6135</vendor>
             <model>pomoch-kazhdomu-rebyonku-najti-svoj-put</model>
         </offer>
-
+        
         <offer id="3146" available="true">
             <url>https://dobro.mail.ru/projects/elvira-hochet-znat/</url>
             <price>204017</price>
@@ -826,7 +826,7 @@
             <vendor>6261</vendor>
             <model>elvira-hochet-znat</model>
         </offer>
-
+        
         <offer id="2382" available="true">
             <url>https://dobro.mail.ru/projects/umnaya-pomosch-dlya-schastlivogo-detstva/</url>
             <price>236804</price>
@@ -837,7 +837,7 @@
             <vendor>6380</vendor>
             <model>umnaya-pomosch-dlya-schastlivogo-detstva</model>
         </offer>
-
+        
         <offer id="2638" available="true">
             <url>https://dobro.mail.ru/projects/kulturologi-dlya-100-podopechnyih-sestrinskogo-uhoda/</url>
             <price>129345</price>
@@ -848,7 +848,7 @@
             <vendor>4834</vendor>
             <model>kulturologi-dlya-100-podopechnyih-sestrinskogo-uhoda</model>
         </offer>
-
+        
         <offer id="3150" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-vernut-tsennost-chelovecheskoj-zhizni/</url>
             <price>61103</price>
@@ -859,7 +859,7 @@
             <vendor>6614</vendor>
             <model>pomozhem-vernut-tsennost-chelovecheskoj-zhizni</model>
         </offer>
-
+        
         <offer id="2640" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-samyim-slabyim-zhitelyam-priyuta/</url>
             <price>214948</price>
@@ -870,7 +870,7 @@
             <vendor>231</vendor>
             <model>pomozhem-samyim-slabyim-zhitelyam-priyuta</model>
         </offer>
-
+        
         <offer id="3153" available="true">
             <url>https://dobro.mail.ru/projects/remissiya-odno-slovo-oznachayuschee-tseluyu-zhizn/</url>
             <price>323587</price>
@@ -881,7 +881,7 @@
             <vendor>4869</vendor>
             <model>remissiya-odno-slovo-oznachayuschee-tseluyu-zhizn</model>
         </offer>
-
+        
         <offer id="3154" available="true">
             <url>https://dobro.mail.ru/projects/sohranit-svoyu-nastoyaschuyu-zhizn/</url>
             <price>229430</price>
@@ -892,7 +892,7 @@
             <vendor>96</vendor>
             <model>sohranit-svoyu-nastoyaschuyu-zhizn</model>
         </offer>
-
+        
         <offer id="2134" available="true">
             <url>https://dobro.mail.ru/projects/shkola-v-zhizni/</url>
             <price>264013</price>
@@ -903,7 +903,7 @@
             <vendor>240</vendor>
             <model>shkola-v-zhizni</model>
         </offer>
-
+        
         <offer id="2393" available="true">
             <url>https://dobro.mail.ru/projects/karantinnyij-blok-dlya-zhivotnyih-priyuta/</url>
             <price>236457</price>
@@ -914,7 +914,7 @@
             <vendor>192</vendor>
             <model>karantinnyij-blok-dlya-zhivotnyih-priyuta</model>
         </offer>
-
+        
         <offer id="3161" available="true">
             <url>https://dobro.mail.ru/projects/viktoriya-znachit-pobeda/</url>
             <price>366482</price>
@@ -925,7 +925,7 @@
             <vendor>6407</vendor>
             <model>viktoriya-znachit-pobeda</model>
         </offer>
-
+        
         <offer id="3166" available="true">
             <url>https://dobro.mail.ru/projects/skazki-na-zdorove/</url>
             <price>192545</price>
@@ -936,7 +936,7 @@
             <vendor>6389</vendor>
             <model>skazki-na-zdorove</model>
         </offer>
-
+        
         <offer id="3167" available="true">
             <url>https://dobro.mail.ru/projects/doroga-zhizni/</url>
             <price>291947</price>
@@ -947,7 +947,7 @@
             <vendor>6601</vendor>
             <model>doroga-zhizni</model>
         </offer>
-
+        
         <offer id="3168" available="true">
             <url>https://dobro.mail.ru/projects/polet-k-mechte/</url>
             <price>399364</price>
@@ -958,7 +958,7 @@
             <vendor>96</vendor>
             <model>polet-k-mechte</model>
         </offer>
-
+        
         <offer id="3169" available="true">
             <url>https://dobro.mail.ru/projects/doroga-k-zhizni/</url>
             <price>230669</price>
@@ -969,7 +969,7 @@
             <vendor>6468</vendor>
             <model>doroga-k-zhizni</model>
         </offer>
-
+        
         <offer id="2402" available="true">
             <url>https://dobro.mail.ru/projects/okryilennyie-deti-ya-lechu-k-vrachu/</url>
             <price>266408</price>
@@ -980,7 +980,7 @@
             <vendor>6506</vendor>
             <model>okryilennyie-deti-ya-lechu-k-vrachu</model>
         </offer>
-
+        
         <offer id="3171" available="true">
             <url>https://dobro.mail.ru/projects/ya-hotel-byi-stat-vrachom/</url>
             <price>325682</price>
@@ -991,7 +991,7 @@
             <vendor>6620</vendor>
             <model>ya-hotel-byi-stat-vrachom</model>
         </offer>
-
+        
         <offer id="2149" available="true">
             <url>https://dobro.mail.ru/projects/pomosch-pervomu-ekaterinburgskomu-hospisu/</url>
             <price>221455</price>
@@ -1002,7 +1002,7 @@
             <vendor>6475</vendor>
             <model>pomosch-pervomu-ekaterinburgskomu-hospisu</model>
         </offer>
-
+        
         <offer id="2661" available="true">
             <url>https://dobro.mail.ru/projects/podarit-uspeshnoe-buduschee-vyipusknikam-detskih-domov/</url>
             <price>499750</price>
@@ -1013,7 +1013,7 @@
             <vendor>1650</vendor>
             <model>podarit-uspeshnoe-buduschee-vyipusknikam-detskih-domov</model>
         </offer>
-
+        
         <offer id="3173" available="true">
             <url>https://dobro.mail.ru/projects/rafi-mozhet-vse/</url>
             <price>187520</price>
@@ -1024,7 +1024,7 @@
             <vendor>6605</vendor>
             <model>rafi-mozhet-vse</model>
         </offer>
-
+        
         <offer id="2663" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-nachat-lechenie-ot-raka/</url>
             <price>148759</price>
@@ -1035,7 +1035,7 @@
             <vendor>67</vendor>
             <model>chtobyi-nachat-lechenie-ot-raka</model>
         </offer>
-
+        
         <offer id="3180" available="true">
             <url>https://dobro.mail.ru/projects/daj-shansu-shans/</url>
             <price>208080</price>
@@ -1046,7 +1046,7 @@
             <vendor>6261</vendor>
             <model>daj-shansu-shans</model>
         </offer>
-
+        
         <offer id="2927" available="true">
             <url>https://dobro.mail.ru/projects/podderzhka-ustavnoj-deyatelnosti-rbof-detskie-serdtsa/</url>
             <price>-37491</price>
@@ -1057,7 +1057,7 @@
             <vendor>62</vendor>
             <model>podderzhka-ustavnoj-deyatelnosti-rbof-detskie-serdtsa</model>
         </offer>
-
+        
         <offer id="3185" available="true">
             <url>https://dobro.mail.ru/projects/nyanya-dlya-aminyi/</url>
             <price>256304</price>
@@ -1068,7 +1068,7 @@
             <vendor>6133</vendor>
             <model>nyanya-dlya-aminyi</model>
         </offer>
-
+        
         <offer id="1650" available="true">
             <url>https://dobro.mail.ru/projects/sestrinskij-uhod-za-sirotami-v-bolnitsah/</url>
             <price>148023</price>
@@ -1079,7 +1079,7 @@
             <vendor>4811</vendor>
             <model>sestrinskij-uhod-za-sirotami-v-bolnitsah</model>
         </offer>
-
+        
         <offer id="2677" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-sdelat-novyij-vzdoh/</url>
             <price>428130</price>
@@ -1090,7 +1090,7 @@
             <vendor>6468</vendor>
             <model>chtobyi-sdelat-novyij-vzdoh</model>
         </offer>
-
+        
         <offer id="1912" available="true">
             <url>https://dobro.mail.ru/projects/detskij-sad-dlya-sonechki/</url>
             <price>79899</price>
@@ -1101,7 +1101,7 @@
             <vendor>3458</vendor>
             <model>detskij-sad-dlya-sonechki</model>
         </offer>
-
+        
         <offer id="2426" available="true">
             <url>https://dobro.mail.ru/projects/podderzhite-mamin-dom/</url>
             <price>31647</price>
@@ -1112,7 +1112,7 @@
             <vendor>6425</vendor>
             <model>podderzhite-mamin-dom</model>
         </offer>
-
+        
         <offer id="3200" available="true">
             <url>https://dobro.mail.ru/projects/vernut-mamu/</url>
             <price>290618</price>
@@ -1123,7 +1123,7 @@
             <vendor>1744</vendor>
             <model>vernut-mamu</model>
         </offer>
-
+        
         <offer id="2950" available="true">
             <url>https://dobro.mail.ru/projects/bolshaya-peremena-v-zhizni-sirot-i-vyipusknikov-pni/</url>
             <price>428831</price>
@@ -1134,7 +1134,7 @@
             <vendor>1704</vendor>
             <model>bolshaya-peremena-v-zhizni-sirot-i-vyipusknikov-pni</model>
         </offer>
-
+        
         <offer id="2443" available="true">
             <url>https://dobro.mail.ru/projects/esli-nado-ehat-v-drugoj-gorod/</url>
             <price>333073</price>
@@ -1145,7 +1145,7 @@
             <vendor>6363</vendor>
             <model>esli-nado-ehat-v-drugoj-gorod</model>
         </offer>
-
+        
         <offer id="2955" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-nakormit-bezdomnyih-zhivotnyih-v-priyutah/</url>
             <price>75539</price>
@@ -1156,7 +1156,7 @@
             <vendor>4796</vendor>
             <model>pomozhem-nakormit-bezdomnyih-zhivotnyih-v-priyutah</model>
         </offer>
-
+        
         <offer id="1933" available="true">
             <url>https://dobro.mail.ru/projects/reabilitatsionnomu-tsentru-dlya-detej-perezhivshih-nasilie-byit/</url>
             <price>381325</price>
@@ -1167,7 +1167,7 @@
             <vendor>6126</vendor>
             <model>reabilitatsionnomu-tsentru-dlya-detej-perezhivshih-nasilie-byit</model>
         </offer>
-
+        
         <offer id="2702" available="true">
             <url>https://dobro.mail.ru/projects/radost-progulki-dlya-ili/</url>
             <price>178277</price>
@@ -1178,7 +1178,7 @@
             <vendor>5</vendor>
             <model>radost-progulki-dlya-ili</model>
         </offer>
-
+        
         <offer id="2703" available="true">
             <url>https://dobro.mail.ru/projects/pomozhem-kate-vmeste/</url>
             <price>259808</price>
@@ -1189,7 +1189,7 @@
             <vendor>142</vendor>
             <model>pomozhem-kate-vmeste</model>
         </offer>
-
+        
         <offer id="2704" available="true">
             <url>https://dobro.mail.ru/projects/ilyusha-sdelaj-pervyij-shag/</url>
             <price>238401</price>
@@ -1200,7 +1200,7 @@
             <vendor>6234</vendor>
             <model>ilyusha-sdelaj-pervyij-shag</model>
         </offer>
-
+        
         <offer id="2450" available="true">
             <url>https://dobro.mail.ru/projects/hochu-obschatsya/</url>
             <price>73715</price>
@@ -1211,7 +1211,7 @@
             <vendor>6133</vendor>
             <model>hochu-obschatsya</model>
         </offer>
-
+        
         <offer id="2195" available="true">
             <url>https://dobro.mail.ru/projects/osnaschenie-priyuta-malenkaya-mama/</url>
             <price>454470</price>
@@ -1222,7 +1222,7 @@
             <vendor>6416</vendor>
             <model>osnaschenie-priyuta-malenkaya-mama</model>
         </offer>
-
+        
         <offer id="2966" available="true">
             <url>https://dobro.mail.ru/projects/nastavniki-dlya-detej-sirot/</url>
             <price>634753</price>
@@ -1233,7 +1233,7 @@
             <vendor>240</vendor>
             <model>nastavniki-dlya-detej-sirot</model>
         </offer>
-
+        
         <offer id="2969" available="true">
             <url>https://dobro.mail.ru/projects/volshebnyij-luch-kotoryij-lechit-detej-s-grustnyimi-glazami/</url>
             <price>428386</price>
@@ -1244,7 +1244,7 @@
             <vendor>84</vendor>
             <model>volshebnyij-luch-kotoryij-lechit-detej-s-grustnyimi-glazami</model>
         </offer>
-
+        
         <offer id="2973" available="true">
             <url>https://dobro.mail.ru/projects/kulinarnyij-klub-60-h-60/</url>
             <price>71535</price>
@@ -1255,7 +1255,7 @@
             <vendor>6523</vendor>
             <model>kulinarnyij-klub-60-h-60</model>
         </offer>
-
+        
         <offer id="2466" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-vernut-prervannuyu-zhizn/</url>
             <price>298292</price>
@@ -1266,7 +1266,7 @@
             <vendor>6565</vendor>
             <model>chtobyi-vernut-prervannuyu-zhizn</model>
         </offer>
-
+        
         <offer id="2724" available="true">
             <url>https://dobro.mail.ru/projects/balet-zhizni/</url>
             <price>252400</price>
@@ -1277,7 +1277,7 @@
             <vendor>6141</vendor>
             <model>balet-zhizni</model>
         </offer>
-
+        
         <offer id="2725" available="true">
             <url>https://dobro.mail.ru/projects/shkola-osoznannogo-roditelstva/</url>
             <price>437482</price>
@@ -1288,7 +1288,7 @@
             <vendor>6391</vendor>
             <model>shkola-osoznannogo-roditelstva</model>
         </offer>
-
+        
         <offer id="2726" available="true">
             <url>https://dobro.mail.ru/projects/radost-obscheniya-dlya-solnechnoj-devochki/</url>
             <price>137537</price>
@@ -1299,7 +1299,7 @@
             <vendor>6204</vendor>
             <model>radost-obscheniya-dlya-solnechnoj-devochki</model>
         </offer>
-
+        
         <offer id="3238" available="true">
             <url>https://dobro.mail.ru/projects/serezha-budet-slyishat/</url>
             <price>79600</price>
@@ -1310,7 +1310,7 @@
             <vendor>6413</vendor>
             <model>serezha-budet-slyishat</model>
         </offer>
-
+        
         <offer id="3242" available="true">
             <url>https://dobro.mail.ru/projects/moj-luchshij-drug-konditsioner-kak-perezhit-leto-esli-tyi-osobennyij/</url>
             <price>101620</price>
@@ -1321,7 +1321,7 @@
             <vendor>6560</vendor>
             <model>moj-luchshij-drug-konditsioner-kak-perezhit-leto-esli-tyi-osobennyij</model>
         </offer>
-
+        
         <offer id="2731" available="true">
             <url>https://dobro.mail.ru/projects/mama-nyam-nyam/</url>
             <price>55685</price>
@@ -1332,7 +1332,7 @@
             <vendor>195</vendor>
             <model>mama-nyam-nyam</model>
         </offer>
-
+        
         <offer id="2987" available="true">
             <url>https://dobro.mail.ru/projects/menya-zhdut-vrachi/</url>
             <price>351725</price>
@@ -1343,7 +1343,7 @@
             <vendor>67</vendor>
             <model>menya-zhdut-vrachi</model>
         </offer>
-
+        
         <offer id="3243" available="true">
             <url>https://dobro.mail.ru/projects/ot-udushya-temneet-v-glazah-nuzhen-nivl/</url>
             <price>304460</price>
@@ -1354,7 +1354,7 @@
             <vendor>6325</vendor>
             <model>ot-udushya-temneet-v-glazah-nuzhen-nivl</model>
         </offer>
-
+        
         <offer id="3247" available="true">
             <url>https://dobro.mail.ru/projects/ostanovit-bolezn/</url>
             <price>138510</price>
@@ -1365,7 +1365,7 @@
             <vendor>6500</vendor>
             <model>ostanovit-bolezn</model>
         </offer>
-
+        
         <offer id="3249" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-maksim-mog-gulyat-2/</url>
             <price>203490</price>
@@ -1376,7 +1376,7 @@
             <vendor>6471</vendor>
             <model>chtobyi-maksim-mog-gulyat-2</model>
         </offer>
-
+        
         <offer id="3250" available="true">
             <url>https://dobro.mail.ru/projects/teplo-i-zabota-lyubyaschih-ruk-dlya-detej-sirot/</url>
             <price>359880</price>
@@ -1387,7 +1387,7 @@
             <vendor>60</vendor>
             <model>teplo-i-zabota-lyubyaschih-ruk-dlya-detej-sirot</model>
         </offer>
-
+        
         <offer id="2995" available="true">
             <url>https://dobro.mail.ru/projects/kolyaska-po-tsene-avtomobilya/</url>
             <price>108189</price>
@@ -1398,7 +1398,7 @@
             <vendor>6386</vendor>
             <model>kolyaska-po-tsene-avtomobilya</model>
         </offer>
-
+        
         <offer id="3251" available="true">
             <url>https://dobro.mail.ru/projects/nezaregistrirovannaya-zhizn/</url>
             <price>349400</price>
@@ -1409,7 +1409,7 @@
             <vendor>4906</vendor>
             <model>nezaregistrirovannaya-zhizn</model>
         </offer>
-
+        
         <offer id="2996" available="true">
             <url>https://dobro.mail.ru/projects/angelyi-bf-vo-imya-zhizni/</url>
             <price>902044</price>
@@ -1420,7 +1420,7 @@
             <vendor>6381</vendor>
             <model>angelyi-bf-vo-imya-zhizni</model>
         </offer>
-
+        
         <offer id="2741" available="true">
             <url>https://dobro.mail.ru/projects/bolnichnyie-deti-5/</url>
             <price>83555</price>
@@ -1431,7 +1431,7 @@
             <vendor>3418</vendor>
             <model>bolnichnyie-deti-5</model>
         </offer>
-
+        
         <offer id="2997" available="true">
             <url>https://dobro.mail.ru/projects/ruka-kiborga-dlya-alinyi/</url>
             <price>180714</price>
@@ -1442,7 +1442,7 @@
             <vendor>6604</vendor>
             <model>ruka-kiborga-dlya-alinyi</model>
         </offer>
-
+        
         <offer id="3253" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-deti-s-tyazheloj-invalidnostyu-uchitsya-v-shkole/</url>
             <price>230284</price>
@@ -1453,7 +1453,7 @@
             <vendor>68</vendor>
             <model>chtobyi-deti-s-tyazheloj-invalidnostyu-uchitsya-v-shkole</model>
         </offer>
-
+        
         <offer id="1974" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-pobeda-stala-blizhe/</url>
             <price>148264</price>
@@ -1464,7 +1464,7 @@
             <vendor>6389</vendor>
             <model>chtobyi-pobeda-stala-blizhe</model>
         </offer>
-
+        
         <offer id="3255" available="true">
             <url>https://dobro.mail.ru/projects/hrupkie-deti-takie-zhe-deti-kak-i-vse/</url>
             <price>270059</price>
@@ -1475,7 +1475,7 @@
             <vendor>6223</vendor>
             <model>hrupkie-deti-takie-zhe-deti-kak-i-vse</model>
         </offer>
-
+        
         <offer id="3256" available="true">
             <url>https://dobro.mail.ru/projects/zhdat-znachit-zhit/</url>
             <price>316000</price>
@@ -1486,7 +1486,7 @@
             <vendor>3480</vendor>
             <model>zhdat-znachit-zhit</model>
         </offer>
-
+        
         <offer id="1977" available="true">
             <url>https://dobro.mail.ru/projects/marshrut-zdorovya/</url>
             <price>209860</price>
@@ -1497,7 +1497,7 @@
             <vendor>4697</vendor>
             <model>marshrut-zdorovya</model>
         </offer>
-
+        
         <offer id="2745" available="true">
             <url>https://dobro.mail.ru/projects/100-dnej-nadezhdyi-byit-vmeste/</url>
             <price>319641</price>
@@ -1508,7 +1508,7 @@
             <vendor>1591</vendor>
             <model>100-dnej-nadezhdyi-byit-vmeste</model>
         </offer>
-
+        
         <offer id="3257" available="true">
             <url>https://dobro.mail.ru/projects/oblegchim-bolezn-maksimu/</url>
             <price>100000</price>
@@ -1519,7 +1519,7 @@
             <vendor>6406</vendor>
             <model>oblegchim-bolezn-maksimu</model>
         </offer>
-
+        
         <offer id="2746" available="true">
             <url>https://dobro.mail.ru/projects/verhom-k-pobede/</url>
             <price>64430</price>
@@ -1530,7 +1530,7 @@
             <vendor>3418</vendor>
             <model>verhom-k-pobede</model>
         </offer>
-
+        
         <offer id="1979" available="true">
             <url>https://dobro.mail.ru/projects/osobenniy-cirk/</url>
             <price>687791</price>
@@ -1541,7 +1541,7 @@
             <vendor>6198</vendor>
             <model>osobenniy-cirk</model>
         </offer>
-
+        
         <offer id="2495" available="true">
             <url>https://dobro.mail.ru/projects/igrat-vmeste/</url>
             <price>181669</price>
@@ -1552,7 +1552,7 @@
             <vendor>4809</vendor>
             <model>igrat-vmeste</model>
         </offer>
-
+        
         <offer id="2248" available="true">
             <url>https://dobro.mail.ru/projects/chtobyi-pomosch-prishla-vovremya/</url>
             <price>799284</price>
@@ -1563,7 +1563,7 @@
             <vendor>6561</vendor>
             <model>chtobyi-pomosch-prishla-vovremya</model>
         </offer>
-
+        
         <offer id="3018" available="true">
             <url>https://dobro.mail.ru/projects/vremya-pomogat-tem-kto-pomogaet-drugim/</url>
             <price>66034</price>
@@ -1574,7 +1574,7 @@
             <vendor>6342</vendor>
             <model>vremya-pomogat-tem-kto-pomogaet-drugim</model>
         </offer>
-
+        
         <offer id="2508" available="true">
             <url>https://dobro.mail.ru/projects/mostik-v-zhizn/</url>
             <price>224925</price>
@@ -1585,7 +1585,7 @@
             <vendor>6480</vendor>
             <model>mostik-v-zhizn</model>
         </offer>
-
+        
         <offer id="2510" available="true">
             <url>https://dobro.mail.ru/projects/ne-bojsya-ya-s-toboj/</url>
             <price>132810</price>
@@ -1596,7 +1596,7 @@
             <vendor>6436</vendor>
             <model>ne-bojsya-ya-s-toboj</model>
         </offer>
-
+        
         <offer id="3025" available="true">
             <url>https://dobro.mail.ru/projects/marshrut-zavershen-otsenite-poezdku/</url>
             <price>75580</price>
@@ -1607,7 +1607,7 @@
             <vendor>2</vendor>
             <model>marshrut-zavershen-otsenite-poezdku</model>
         </offer>
-
+        
         <offer id="2517" available="true">
             <url>https://dobro.mail.ru/projects/podderzhite-ravnyih-konsultantov/</url>
             <price>422968</price>
@@ -1618,7 +1618,7 @@
             <vendor>6568</vendor>
             <model>podderzhite-ravnyih-konsultantov</model>
         </offer>
-
+        
         <offer id="3029" available="true">
             <url>https://dobro.mail.ru/projects/spasem-detej-s-narusheniyami-immuniteta/</url>
             <price>45475</price>
@@ -1629,7 +1629,7 @@
             <vendor>96</vendor>
             <model>spasem-detej-s-narusheniyami-immuniteta</model>
         </offer>
-
+        
         <offer id="2006" available="true">
             <url>https://dobro.mail.ru/projects/pomoch-odinokoj-mame-v-dekrete-podnyat-malyishej/</url>
             <price>139043</price>
@@ -1640,7 +1640,7 @@
             <vendor>6467</vendor>
             <model>pomoch-odinokoj-mame-v-dekrete-podnyat-malyishej</model>
         </offer>
-
+        
         <offer id="3030" available="true">
             <url>https://dobro.mail.ru/projects/uspet-kupit-lekarstvo-vo-vremya/</url>
             <price>214133</price>
@@ -1651,7 +1651,7 @@
             <vendor>44</vendor>
             <model>uspet-kupit-lekarstvo-vo-vremya</model>
         </offer>
-
+        
         <offer id="2007" available="true">
             <url>https://dobro.mail.ru/projects/vyijti-iz-teni-s-pomoschyu-teatra-tenej/</url>
             <price>372865</price>
@@ -1662,7 +1662,7 @@
             <vendor>58</vendor>
             <model>vyijti-iz-teni-s-pomoschyu-teatra-tenej</model>
         </offer>
-
+        
         <offer id="3033" available="true">
             <url>https://dobro.mail.ru/projects/grishe-i-artyomu-na-den-rozhdeniya-nuzhno-podarit-vozduh-i-vozmozhnost-kushat/</url>
             <price>167030</price>
@@ -1673,7 +1673,7 @@
             <vendor>6149</vendor>
             <model>grishe-i-artyomu-na-den-rozhdeniya-nuzhno-podarit-vozduh-i-vozmozhnost-kushat</model>
         </offer>
-
+        
         <offer id="1754" available="true">
             <url>https://dobro.mail.ru/projects/pust-deti-pochuvstvuyut-vkus-edyi/</url>
             <price>296104</price>
@@ -1684,7 +1684,7 @@
             <vendor>6212</vendor>
             <model>pust-deti-pochuvstvuyut-vkus-edyi</model>
         </offer>
-
+        
         <offer id="2522" available="true">
             <url>https://dobro.mail.ru/projects/kruglyij-stol-dlya-osobennyih-ryitsarej/</url>
             <price>15589</price>
@@ -1695,7 +1695,7 @@
             <vendor>6455</vendor>
             <model>kruglyij-stol-dlya-osobennyih-ryitsarej</model>
         </offer>
-
+        
         <offer id="2524" available="true">
             <url>https://dobro.mail.ru/projects/mozhno-ya-u-vas-pozhivu/</url>
             <price>377328</price>
@@ -1706,7 +1706,7 @@
             <vendor>6118</vendor>
             <model>mozhno-ya-u-vas-pozhivu</model>
         </offer>
-
+        
         <offer id="2014" available="true">
             <url>https://dobro.mail.ru/projects/osobennoe-lekarstvo-dlya-osobennyih-detej/</url>
             <price>416697</price>
@@ -1717,7 +1717,7 @@
             <vendor>6257</vendor>
             <model>osobennoe-lekarstvo-dlya-osobennyih-detej</model>
         </offer>
-
+        
         <offer id="3038" available="true">
             <url>https://dobro.mail.ru/projects/najti-polomku-v-gene-chtobyi-nachat-lechenie/</url>
             <price>140960</price>
@@ -1728,7 +1728,7 @@
             <vendor>4906</vendor>
             <model>najti-polomku-v-gene-chtobyi-nachat-lechenie</model>
         </offer>
-
+        
         <offer id="2271" available="true">
             <url>https://dobro.mail.ru/projects/telefon-podderzhki-dlya-roditelej-rannih-malyishej/</url>
             <price>355155</price>
@@ -1739,7 +1739,7 @@
             <vendor>6562</vendor>
             <model>telefon-podderzhki-dlya-roditelej-rannih-malyishej</model>
         </offer>
-
+        
         <offer id="3039" available="true">
             <url>https://dobro.mail.ru/projects/pomogite-detyam-s-opuholyami-mozga-zhit-polnotsenno/</url>
             <price>527636</price>
@@ -1750,7 +1750,7 @@
             <vendor>128</vendor>
             <model>pomogite-detyam-s-opuholyami-mozga-zhit-polnotsenno</model>
         </offer>
-
+        
         <offer id="3043" available="true">
             <url>https://dobro.mail.ru/projects/zdorovaya-i-bezopasnaya-zhizn-dlya-soten-koshek-i-sobak/</url>
             <price>38993</price>
@@ -1761,7 +1761,7 @@
             <vendor>6268</vendor>
             <model>zdorovaya-i-bezopasnaya-zhizn-dlya-soten-koshek-i-sobak</model>
         </offer>
-
+        
         <offer id="2021" available="true">
             <url>https://dobro.mail.ru/projects/molodyim-lyudyam-nuzhna-rabota/</url>
             <price>656400</price>
@@ -1772,7 +1772,7 @@
             <vendor>4866</vendor>
             <model>molodyim-lyudyam-nuzhna-rabota</model>
         </offer>
-
+        
         <offer id="3048" available="true">
             <url>https://dobro.mail.ru/projects/druzheskaya-podderzhka-60-osobyih-detej/</url>
             <price>376817</price>
@@ -1783,7 +1783,7 @@
             <vendor>3354</vendor>
             <model>druzheskaya-podderzhka-60-osobyih-detej</model>
         </offer>
-
+        
         <offer id="3052" available="true">
             <url>https://dobro.mail.ru/projects/dolgoletie-i-komfort-dlya-odinokih-babushek-i-dedushek/</url>
             <price>208333</price>
@@ -1794,7 +1794,7 @@
             <vendor>6231</vendor>
             <model>dolgoletie-i-komfort-dlya-odinokih-babushek-i-dedushek</model>
         </offer>
-
+        
         <offer id="2287" available="true">
             <url>https://dobro.mail.ru/projects/mesto-dlya-obscheniya-podrostkov/</url>
             <price>25300</price>
@@ -1805,7 +1805,7 @@
             <vendor>1527</vendor>
             <model>mesto-dlya-obscheniya-podrostkov</model>
         </offer>
-
+        
         <offer id="1781" available="true">
             <url>https://dobro.mail.ru/projects/tri-chasa-v-podderzhku/</url>
             <price>215380</price>
@@ -1816,7 +1816,7 @@
             <vendor>6296</vendor>
             <model>tri-chasa-v-podderzhku</model>
         </offer>
-
+        
         <offer id="3065" available="true">
             <url>https://dobro.mail.ru/projects/ostavajtes-syityimi/</url>
             <price>380017</price>
@@ -1827,7 +1827,7 @@
             <vendor>231</vendor>
             <model>ostavajtes-syityimi</model>
         </offer>
-
+        
         <offer id="1788" available="true">
             <url>https://dobro.mail.ru/projects/mir-uvlechenij-dlya-detej-invalidov/</url>
             <price>67031</price>
@@ -1838,7 +1838,7 @@
             <vendor>4695</vendor>
             <model>mir-uvlechenij-dlya-detej-invalidov</model>
         </offer>
-
+        
         <offer id="3069" available="true">
             <url>https://dobro.mail.ru/projects/mechtayu-brosit-kostyili-i-snova-nachat-hodit/</url>
             <price>194063</price>
@@ -1849,7 +1849,7 @@
             <vendor>84</vendor>
             <model>mechtayu-brosit-kostyili-i-snova-nachat-hodit</model>
         </offer>
-
+        
         <offer id="3070" available="true">
             <url>https://dobro.mail.ru/projects/dasha-mechtaet-snova-nachat-hodit/</url>
             <price>188964</price>
@@ -1860,7 +1860,7 @@
             <vendor>84</vendor>
             <model>dasha-mechtaet-snova-nachat-hodit</model>
         </offer>
-
+        
     </offers>
 </shop>
 </torg_price>
