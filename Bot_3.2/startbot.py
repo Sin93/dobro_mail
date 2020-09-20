@@ -1,6 +1,7 @@
 from BotLogic.Bot import Bot
 from config import TOKEN, VK_GROUP_ID
 from flask import Flask, request
+from multiprocessing import Process
 from vk_api import VkApi
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
@@ -32,6 +33,10 @@ import socket
 #
 #     app.run(debug=True)
 
+def multi_bot(user_id, user_message, information, user_can_read_carusel):
+    # создаётся эктемпляр класса, который управляет логикой бота
+    return Bot(user_id, user_message, information, user_can_read_carusel)
+
 
 def main():
     vk_session = VkApi(token=TOKEN)
@@ -49,8 +54,9 @@ def main():
                 user_can_read_carusel = False
             information = event.object.message.get('payload')
 
-            # создаётся эктемпляр класса, который управляет логикой бота
-            Bot(user_id, user_message, information, user_can_read_carusel)
+            proc = Process(target=multi_bot, args=(user_id, user_message, information, user_can_read_carusel))
+            
+
 
 if __name__ == '__main__':
     main()
