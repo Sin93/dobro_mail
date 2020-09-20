@@ -71,7 +71,6 @@ class Projects(BaseModel):
     short_name = CharField(max_length=100)
     description = TextField(null=True)
 
-
     @staticmethod
     def get_projects_by_id(project_id):
         return Projects.get(project_id=project_id)

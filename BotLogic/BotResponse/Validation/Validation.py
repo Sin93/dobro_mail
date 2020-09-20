@@ -8,8 +8,10 @@ class UserText:
 
     def __init__(self, user_id = None):
         self.user_text = ''
+        self.parsed_text = ''
         self.user_id = user_id
         self.validate_message = ''
+        self.previous_messages = None
         self.error_message = "Не понял вас. Повторите снова"
         self.last_message_time = datetime.datetime.now()
 
@@ -34,11 +36,10 @@ class ValidateText(UserText):
 
     def proceed_validation(self):
         print(self.user_text)
-        self.user_text = self.user_text.split(' ')
-        for word in self.user_text:
+        self.parsed_text = self.user_text.split(' ')
+        for word in self.parsed_text:
             if len(word) > 3:
                 for key, item in DataSet.items():
-                   # print(key)
                     info = ' '.join(item)
                     print(info)
                     if self.word_validation(word, info, key):
@@ -49,50 +50,20 @@ class ValidateText(UserText):
                         break
         print(self.stack)
 
-        # regExp = re.compile(f'{self.user_text}', flags=re.I + re.M)
-
-        # if regExp.search(self.validationText):
-        #     print("Success")
-        #     print(f'Possible source id: {self.possibleSource[self.user_text.title()]}  {self.user_text.title()}')
-        #     self.validate_message = self.user_text.title()
-        # else:
-        #     # Maybe mistake in writing
-        #     print(regExp)
-        #     validated_text = self.mistake_validation(self.validationText, regExp)
-        #     print(validated_text)
-        #     if validated_text is None:
-        #         self.error_message = "Не понял вас. Повторите снова"
-        #         self.validate_message = 'Другое'
-        #         print('Не понял вас. Повторите снова')
-        #     else:
-        #         print(f'Possible source id: {self.possibleSource[validated_text]}  {validated_text}')
-        #         self.validate_message = validated_text
-
-        # self.source_id = self.possibleSource[self.validate_message]
-
     def word_validation(self, word, validation_text, type=None):
 
         regExp = re.compile(f'{word}', flags=re.I + re.M)
 
         if regExp.search(validation_text):
             print(f"Success {word} key = {type}")
-            # print(f'Possible source id: {self.possibleSource[self.user_text.title()]}  {self.user_text.title()}')
-            # self.validate_message = self.user_text.title()
             self.validate_message = word
             return True
         else:
             # Maybe mistake in writing
-            #print(regExp)
             validated_text = self.mistake_validation(validation_text, regExp)
-            #print(validated_text)
             if validated_text is None:
-                # self.error_message = "Не понял вас. Повторите снова"
-                # self.validate_message = 'Другое'
-                #print(f'Не понял вас. Повторите снова key = {type}')
                 return False
             else:
-                # print(f'Possible source id: {self.possibleSource[validated_text]}  {validated_text}')
-                # self.validate_message = validated_text
                 print(f'{validated_text} key = {type}' )
                 self.validate_message = validated_text
                 return True
@@ -122,7 +93,6 @@ class ValidateText(UserText):
                 return None
 
         match = regExp.findall(validation_text)
-        #print(regExp.pattern)
         if match:
             return regExp.pattern
 
@@ -144,8 +114,6 @@ class ValidateText(UserText):
         for char in pattern:
             if char == '+': # \\w+
                 count += 3
-        #print(pattern, len(pattern), count / len(pattern))
-        #print(count/ len(pattern))
         if count / len(pattern) >= PATTERN_MAX_ERROR:
             return False
 
