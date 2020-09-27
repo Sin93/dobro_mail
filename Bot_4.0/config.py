@@ -1,18 +1,40 @@
 import os
 
+API_LINK = 'https://api.vk.com/method/{method_name}'
+
+API_VERSION = '5.124'
+
+API_SECRET_KEY = 'ffac7be94d1a488e35d13eacaa05e66d47aee17eeb68b16530'
+
+# Токен группы
 TOKEN = '2ba9703dc3633922f2753422de186c352aaf5b28705eeb84aaa16ebb59b65594a6290431cfbf18efb16e3'
 
-API_APP = ''
+# Личный токен для загрузки фото, время жизни - сутки, после этого надо вручную обновлять
+ACCESS_TOKEN = '0d28c309889e646ffeb42c7d398d790ca72174336a32f0a64f4930300af187e2a4757d39fb31f16223240'
+# получение токена: https://oauth.vk.com/authorize?client_id=7603413&display=page&redirect_uri=http://35.226.30.8/&scope=photos,offline&response_type=token&v=5.124
 
-API_KEY = ''
+APP_SEVICE_KEY = '486e62ac486e62ac486e62acbc481dd90e4486e486e62ac170cd2b8a84e928d100cda4f'
 
-VK_GROUP_ID = '198392433'
+CONFIRMATION_TOKEN = '85ee715e'
 
-PROJECTS_AMOUNT = 5
+API_APP = 'vkchatbot2'
+
+API_KEY = '89551b60cb453ad3a0bcc6edc169ef1c6628ff99'
+
+VK_GROUP_ID = 198392433
+
+GROUP_PHOTO_ALBUM_ID = 277400019
+
+PROJECTS_AMOUNT = 3
 
 PROJECTS_DATA = 'https://dobro.mail.ru/projects/rss/target/'
 
-PAYMENT_LINK = 'https://dobro.mail.ru/projects/'
+PAYMENT_LINK = 'https://dobro.mail.ru/api/chatbot/create_payment/?api_app=vkchatbot2&api_key=89551b60cb453ad3a0bcc6edc169ef1c6628ff99&amount={amount}&project_id={project_id}&user_id={user_id}'
+# вместо ссылки на проект надо подсунуть:
+# link = config.PAYMENT_LINK.format(
+#     amount=сумма пожертвования,
+#     project_id=id проекта,
+#     user_id=id пользователя)
 
 XML_URL = None
 
