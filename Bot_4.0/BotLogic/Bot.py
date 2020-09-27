@@ -8,9 +8,10 @@ import json
 
 
 class Bot(BotResponse):
-    def __init__(self, user_id, user_message, information):
+    def __init__(self, user_id, user_message, information, user_can_read_carusel):
         super().__init__(user_id, user_message)
         self.information = information
+        self.user_can_read_carusel = user_can_read_carusel
         self.proceed_validation()
         self.generate_response()
         self.create_answer()
@@ -192,7 +193,7 @@ class Bot(BotResponse):
     def create_message(message, keyboard_type=None, inline=False, payload=None, keyboard=None, attachment=None):
 
         return {
-            'message' : message,
+            'message': message,
             'keyboard': Bot.create_keyboard(keyboard_type, payload) if keyboard is None else keyboard,
             'inline': inline,
             'attachment': attachment
