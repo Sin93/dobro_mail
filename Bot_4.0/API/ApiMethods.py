@@ -81,6 +81,9 @@ class ApiMethodsClass():
         keyboard: Optional[str]=None,
         template: Optional[str]=None,
         photo_id: Optional[str]=None):
+        """Отправляет сообщение, если в template передать элемент карусели,
+        то к сообщению будет подключена "карусель", важно проверять,
+        что пользователь может считывать карусель на своём устройстве"""
 
         vk_session = VkApi(token=TOKEN)
         vk = vk_session.get_api()
@@ -109,40 +112,12 @@ class ApiMethodsClass():
                 attachment=f'photo{photo_id}_{TOKEN}'
             )
 
-    # @staticmethod
-    # def send_msg_and_keyboard(
-    #     user_id: int,
-    #     message: str,
-    #     attachment: str,
-    #     keyboard: Optional[str]=None):
-    #
-    #     vk_session = VkApi(token=TOKEN)
-    #     vk = vk_session.get_api()
-    #     random_id = utils.get_random_id()
-    #     if keyboard is not None:
-    #         vk.messages.send(
-    #             user_id=user_id,
-    #             message=message,
-    #             keyboard=keyboard,
-    #             random_id=random_id,
-    #             attachment=attachment
-    #         )
-    #     else:
-    #         vk.messages.send(
-    #             user_id=user_id,
-    #             message=message,
-    #             random_id=random_id,
-    #             attachment=attachment
-    #         )
-
-
-    # @staticmethod
-    # def send_carousel(user_id, elements):
-    #     random_id = utils.get_random_id()
-
 
     @staticmethod
     def create_json_carusel(elements_list: List):
+        """Формирует карусель, готовую к отправке в сообщении.
+        На вход принимает список элементов карусели, каждый отдельный элемент
+        можно сделать с помощью метода create_carusel_element"""
         carusel = {
             'type': 'carousel',
             'elements': []
@@ -157,9 +132,9 @@ class ApiMethodsClass():
     def create_carusel_element(
         title: str,
         description: str,
-        project_link='https://dobro.mail.ru',
-        payload={"project":"3119"},  # убрать этот хардкод
-        photo_id='-198392433_457239035',  # убрать этот хардкод
+        project_link: str,
+        payload: dict,
+        photo_id: str,
         action='open_photo'):
         """Создаёт элемент карусели.
         title - заголовок, можно передавать строку, но максимум 80 символов
@@ -205,13 +180,17 @@ class ApiMethodsClass():
         return element
 
     @staticmethod
-    def upload_photo(link_to_photo='/home/maxim/projects/project_images/1710.jpg'):
+    def upload_photo(
+        link_to_photo='/home/maxim/projects/project_images/1710.jpg',
+        album_id=GROUP_PHOTO_ALBUM_ID):
+        """Загружает фото в альбом, по умолчанию в альбом указанный в конфиге,
+        но можно передать id другого альбома группы"""
         vk_session = VkApi(token=ACCESS_TOKEN)
         vk = vk_session.get_api()
 
         up_photo = upload.VkUpload(vk_session).photo(
             photos=link_to_photo,
-            album_id=GROUP_PHOTO_ALBUM_ID,
+            album_id=album_id,
             group_id=VK_GROUP_ID)
 
         return up_photo
